@@ -3,7 +3,7 @@
 // console.log(massive);
 
 //  const person = new Object  ()
-//     person.name= 'Nikita' 
+//     person.name= 'Nikita'
 //     person.subname = 'Subbotin'
 //     person.age = 23
 
@@ -16,14 +16,14 @@
 
 // console.log(result)
 
-let button1 = document.getElementById('button1')
+let button1 = document.getElementById("button1");
 
-function click () {
-  alert ('Yay')
+function click() {
+  alert("Yay");
 }
-button1.onclick = click
+button1.onclick = click;
 
-let btn2 = document.getElementById('btn2')
+let btn2 = document.getElementById("btn2");
 
 function myFunction() {
   let copyText = document.getElementById("myInput");
