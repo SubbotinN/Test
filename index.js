@@ -59,12 +59,8 @@
 // let userName = prompt("Как тебя зовут?");
 // alert(`Тебя зовут ${userName}`);
 
-// let value = true;
-// //  alert(typeof value);
+let value = true;
+alert(typeof value);
 
-// value = String(value);
-// alert(typeof value);
-123;
-31231;
-323123;
-31231;
+value = String(value);
+alert(typeof value);
