@@ -114,12 +114,12 @@ if (login == "Админ") {
   let password = prompt("Пароль?", "");
   if (password == "Я Главный") {
     alert("Здраствуйте!");
-  } else if (password == null) {
+  } else if (password == null || password == '') {
     alert("Отменено");
   } else {
   }
   alert("Неверный пароль");
-} else if (login == null) {
+} else if (login == null || password =='') {
   alert("Отменено");
 } else {
   alert("Я вас не знаю");
