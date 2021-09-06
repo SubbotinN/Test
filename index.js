@@ -107,18 +107,42 @@
 
 // if (age 14 || age > 90)
 
-// let login = prompt("Кто там?", "");
-// if (login == "Админ") {
-//   let password = prompt("Пароль?", "");
-//   if (password == "Я Главный") {
-//     alert("Здраствуйте!");
-//   } else if (password == null) {
-//     alert("Отменено");
-//   } else {
-//   }
-//   alert("Неверный пароль");
-// } else if (login == null) {
-//   alert("Отменено");
-// } else {
-//   alert("Я вас не знаю");
-// }
+Мой Код
+
+let login = prompt("Кто там?", "");
+if (login == "Админ") {
+  let password = prompt("Пароль?", "");
+  if (password == "Я Главный") {
+    alert("Здраствуйте!");
+  } else if (password == null) {
+    alert("Отменено");
+  } else {
+  }
+  alert("Неверный пароль");
+} else if (login == null) {
+  alert("Отменено");
+} else {
+  alert("Я вас не знаю");
+}
+
+Код учебника 
+
+let userName = prompt("Кто там?", '');
+
+if (userName == 'Админ') {
+
+  let pass = prompt('Пароль?', '');
+
+  if (pass == 'Я главный') {
+    alert( 'Здравствуйте!' );
+  } else if (pass == '' || pass == null) {
+    alert( 'Отменено' );
+  } else {
+    alert( 'Неверный пароль' );
+  }
+
+} else if (userName == '' || userName == null) {
+  alert( 'Отменено' );
+} else {
+  alert( "Я вас не знаю" );
+}
