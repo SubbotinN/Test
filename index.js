@@ -59,8 +59,16 @@
 // let userName = prompt("Как тебя зовут?");
 // alert(`Тебя зовут ${userName}`);
 
-let value = true;
-alert(typeof value);
+// let value = true;
+// alert(typeof value);
 
-value = String(value);
-alert(typeof value);
+// value = String(value);
+// alert(typeof value);
+
+let age = prompt ('Возраст?', 18)
+let message = (age < 3) ? 'Здравствуй , малыш' :
+(age < 18) ? 'Привет!':
+(age < 100) ? 'Здраствуйте!':
+'Какой необычный возраст!';
+
+alert( message)
