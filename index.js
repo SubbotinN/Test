@@ -65,10 +65,38 @@
 // value = String(value);
 // alert(typeof value);
 
-let age = prompt ('Возраст?', 18)
-let message = (age < 3) ? 'Здравствуй , малыш' :
-(age < 18) ? 'Привет!':
-(age < 100) ? 'Здраствуйте!':
-'Какой необычный возраст!';
+// let age = prompt ('Возраст?', 18)
+// let message = (age < 3) ? 'Здравствуй , малыш' :
+// (age < 18) ? 'Привет!':
+// (age < 100) ? 'Здраствуйте!':
+// 'Какой необычный возраст!';
 
-alert( message)
+// alert( message)
+
+// let name = prompt('Какое "официальное" название JS', "");
+
+// if (name == "ECMAScript") {
+//   alert("Верно");
+// } else {
+//   alert('Не знаете? "ECMAScript"!');
+// }
+
+// let value = prompt("Число", 0);
+// if (value > 0) {
+//   alert(1);
+// } else if (value < 0) {
+//   alert(-1);
+// } else {
+//   value == 0;
+//   alert(0);
+// }
+
+// let result;
+
+// if (a + b < 4) ? 'Мало' : 'Много'
+
+// let message =
+//  (login == 'Сотрудник') ? 'Привет' :
+//  (login == 'Директор') ? 'Здравствуйте':
+//  (login == '') ? 'Нет логина':
+//  ''
