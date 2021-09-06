@@ -100,3 +100,25 @@
 //  (login == 'Директор') ? 'Здравствуйте':
 //  (login == '') ? 'Нет логина':
 //  ''
+
+// if ( age >= 14 && age <= 90)
+
+// if (!(age >=14 && <=90))
+
+// if (age 14 || age > 90)
+
+// let login = prompt("Кто там?", "");
+// if (login == "Админ") {
+//   let password = prompt("Пароль?", "");
+//   if (password == "Я Главный") {
+//     alert("Здраствуйте!");
+//   } else if (password == null) {
+//     alert("Отменено");
+//   } else {
+//   }
+//   alert("Неверный пароль");
+// } else if (login == null) {
+//   alert("Отменено");
+// } else {
+//   alert("Я вас не знаю");
+// }
