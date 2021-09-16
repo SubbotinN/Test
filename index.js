@@ -107,42 +107,53 @@
 
 // if (age 14 || age > 90)
 
-Мой Код
+// Мой Код
 
-let login = prompt("Кто там?", "");
-if (login == "Админ") {
-  let password = prompt("Пароль?", "");
-  if (password == "Я Главный") {
-    alert("Здраствуйте!");
-  } else if (password == null || password == '') {
-    alert("Отменено");
-  } else {
-  }
-  alert("Неверный пароль");
-} else if (login == null || password =='') {
-  alert("Отменено");
-} else {
-  alert("Я вас не знаю");
-}
+// let login = prompt("Кто там?", "");
+// if (login == "Админ") {
+//   let password = prompt("Пароль?", "");
+//   if (password == "Я Главный") {
+//     alert("Здраствуйте!");
+//   } else if (password == null || password == '') {
+//     alert("Отменено");
+//   } else {
+//   }
+//   alert("Неверный пароль");
+// } else if (login == null || password =='') {
+//   alert("Отменено");
+// } else {
+//   alert("Я вас не знаю");
+// }
 
-Код учебника 
+// Код учебника
 
-let userName = prompt("Кто там?", '');
+// let userName = prompt("Кто там?", '');
 
-if (userName == 'Админ') {
+// if (userName == 'Админ') {
 
-  let pass = prompt('Пароль?', '');
+//   let pass = prompt('Пароль?', '');
 
-  if (pass == 'Я главный') {
-    alert( 'Здравствуйте!' );
-  } else if (pass == '' || pass == null) {
-    alert( 'Отменено' );
-  } else {
-    alert( 'Неверный пароль' );
-  }
+//   if (pass == 'Я главный') {
+//     alert( 'Здравствуйте!' );
+//   } else if (pass == '' || pass == null) {
+//     alert( 'Отменено' );
+//   } else {
+//     alert( 'Неверный пароль' );
+//   }
 
-} else if (userName == '' || userName == null) {
-  alert( 'Отменено' );
-} else {
-  alert( "Я вас не знаю" );
-}
+// } else if (userName == '' || userName == null) {
+//   alert( 'Отменено' );
+// } else {
+//   alert( "Я вас не знаю" );
+//
+
+// Мини задание с Хабра
+
+// let fiz = "fizz";
+// let buz = "buzz";
+// let sum = fiz + buz;
+// for (let test = 1; test < 101; test++)
+//   if (test % 5 === 0 && test % 3 === 0) console.log(sum);
+//   else if (test % 5 === 0) console.log(buz);
+//   else if (test % 3 === 0) console.log(fiz);
+//   else console.log(test);
