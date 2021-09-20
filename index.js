@@ -157,3 +157,100 @@
 //   else if (test % 5 === 0) console.log(buz);
 //   else if (test % 3 === 0) console.log(fiz);
 //   else console.log(test);
+
+// for (let a = 0; a <= 10; a++) {
+//   if (a % 2 == 0) {
+//     alert(a);
+//   }
+// }
+
+// let i = 0;
+// while (i < 3) {
+//   alert(`number ${i}!`);
+//   i++;
+// }
+
+// while (true) {
+//   let a = prompt("Введите число больше 100", 0);
+//   if (a > 100 || number == null) break;
+// }
+
+// let n = 10;
+
+// nextPrime: for (let i = 2; i <= n; i++) {
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) continue nextPrime;
+//   }
+
+//   alert(i);
+// }
+
+// let browser = prompt("Введите название браузера", 0);
+
+// if (browser == "Edge") {
+//   alert("You've got the Edge!");
+// } else if (
+//   browser == "Chrome" ||
+//   browser == "Firefox" ||
+//   browser == "Safari" ||
+//   browser == "Opera"
+// ) {
+//   alert("Okay we support these browsers too");1
+// } else {
+//   alert("We hope that this page looks ok!");
+// }
+
+// const number = +prompt("Введите число между 0 и 3", "");
+
+// switch (number) {
+//   case 0:
+//     alert("Вы ввели число 0");
+//     break;
+//   case 1:
+//     alert("Вы ввели число 1");
+//     break;
+//   case 2 || "3":
+//     alert("Вы ввели число 2, а может и 3");
+//     break;
+// }
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     return confirm('Родители разрешили?');
+//   }
+// }
+
+// function checkAge(age) { age > 18 ? true : confirm ('Родители разрешили?')}
+
+// function checkAge(age) { age > 18 ||  confirm ('Родители разершили')}
+
+// function min(a, b) {
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+// console.log(min(3, 2));
+
+// function pow(x, n)
+// {
+//   let result = x;
+
+//   for (let i = 1; i < n; i++) {
+//     result *= x;
+//   }
+
+//   return result;
+// }
+
+// let x = prompt("x?", "");
+// let n = prompt("n?", "");
+
+// if (n < 1) {
+//   alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+// } else {
+//   alert(pow(x, n));
+// }
