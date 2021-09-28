@@ -292,3 +292,86 @@
 
 // let ask = (question, yes, no) => confirm(question) ? yes() : no()
 // ask ("Вы согласны?")
+
+// let fruit = prompt("Какой фрукт купить?", "apple");
+
+// let bag = {
+//   [fruit]: 5, // имя свойства будет взято из переменной fruit
+// };
+// 1
+// alert(bag.apple); // 5, если fruit="apple"
+
+// function makeUser(name, age) {
+//   return {
+//     name: name,
+//     age: age
+//     // ...другие свойства
+//   };
+// }
+
+// let user = makeUser("John", 30);
+// alert(user.name); // John
+
+// let user = {
+//   name: "John",
+//   age: 30,
+//   isAdmin: true
+// };
+
+// for (let key in user) {
+//   // ключи
+//   alert( key );  // name, age, isAdmin
+//   // значения ключей
+//   alert( user[key] ); // John, 30, true
+// }
+
+// let user = {}
+
+// user.name = "Jonh" ;
+// user.surname = "Smith" ;
+// user.name = "Pete" ;
+// delete user.name ;
+
+// let schedule = {};
+// schedule["8:30"] = "get up";
+
+// function isEmpty(obj) {
+//   for (let key in obj) {
+//     return false;
+//   }
+//   return true;
+// }
+// alert(isEmpty(schedule));
+
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130,
+// };
+// function summ(tre) {
+//   let sum = salaries.John + salaries.Ann + salaries.Pete;
+
+//   for (let key in tre) {
+//     return sum;
+//   }
+//   return 0;
+// }
+// alert(summ(salaries));
+
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu",
+};
+
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == "number") {
+      obj[key] *= 2;
+    } else continue;
+  }
+}
+
+multiplyNumeric(menu);
+
+console.log(menu);
